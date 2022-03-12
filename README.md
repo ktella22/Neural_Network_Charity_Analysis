@@ -11,11 +11,11 @@ The purpose of this project is to use the machine learning and neural networks k
 ### Compiling, Training, and Evaluating the Model 
 - In the original analysis, 2 hidden layers with 80 neurons for first layer and 30 neurons for second hidden layer were used. Rectified Linear Unite (ReLU) function was used in both hidden layers. The output layer include only one neuron with linear Sigmoid function was selected. 
 - The neural model with different parameters and features mentioned above was able to achieve the 72% of its accuracy. 
-- To optimize the model performace over 75%, the steps such as removing non-beneficial feature "STATUS" was removed, additional neurons to hidden layers and hidden layers were added to the model. After training the model and evaluate on the test data, the accruacy was not as good as the first model and ended up having lower accuracy score than the first model after the optimization. 
+- To optimize the model performace over 75%, the steps such as removing non-beneficial feature was removed from the datasets, additional neurons to hidden layers and hidden layers were added to the model. The below screenshot is the accuracy and loss values of the first model after evaluation.
+<img width="675" alt="capture" src="https://user-images.githubusercontent.com/92502292/158036491-a2536c67-3006-4ce5-ac49-f91de44b43ae.PNG">
 
 ## Summary 
 - The first model with 2 hidden layers has the accuracy 0.7265 and loss of 0.5598.
-<img width="675" alt="capture" src="https://user-images.githubusercontent.com/92502292/158036491-a2536c67-3006-4ce5-ac49-f91de44b43ae.PNG">
  
 - The first optimation with second model has less input feature than the first model but the rest doesn't change. This model produced the accuracy of 0.7236 with 0.5882 loss value. 
 <img width="755" alt="Capture2" src="https://user-images.githubusercontent.com/92502292/158036503-c1a207cb-4583-4012-9de2-788adedc8c5c.PNG">
